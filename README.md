@@ -66,6 +66,6 @@ In newer versions of Python/SQLAlchemy, it is recommended to replace `datetime.u
 ## 👨‍💻 Author & Project Credits
 
 This project was envisioned, logically designed, and self-coded by:
-* **Rahul Rayjada** 🚀
+* **Dilip Chaudhary** 🚀
 
 *Built with consistency, continuous logic-building, and self-taught Python expertise.*
