@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container my-2">
+    <h2>Update Your Todo</h2>
+    <form method="POST" action="{{ url_for('update', sno=updatetodo.sno) }}">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Entar Todo Title</label>
+            <input type="text" name="title" value="{{updatetodo.title}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Entar Todo Discription</label>
+            <input type="text" name="dsc" value="{{updatetodo.dsc}}" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-outline-dark mb-2">Update</button>
+    </form>
+</div>
+{% endblock body %}

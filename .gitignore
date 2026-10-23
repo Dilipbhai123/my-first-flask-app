@@ -1,0 +1,17 @@
+# વર્ચ્યુઅલ એન્વાયર્નમેન્ટ (Virtual Environment)
+env/
+venv/
+ENV/
+
+# પાયથોન કેશ ફાઈલો (Python Cache)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ડેટાબેઝ અને ઇન્સ્ટન્સ ફોલ્ડર (Database / Instance)
+instance/
+*.db
+*.sqlite3
+
+# એન્વાયર્નમેન્ટ વેરિયેબલ્સ (જો હોય તો)
+.env
